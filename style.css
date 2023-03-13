@@ -16,7 +16,6 @@ body {
 
   .button {
     align-items: center;
-    background-color: green;
     border-radius: 5px;
     color: white;
     display: flex;
@@ -24,6 +23,10 @@ body {
     justify-content: center;
     width: 200px;
     height: 200px;
+  }
+
+  #button1 {
+    background-color: green;
   }
 
   #button2 {
