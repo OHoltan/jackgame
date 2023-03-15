@@ -15,7 +15,7 @@ let score = 0;
 doc.addEventListener("click", function(e) {
     // console.log(e.target.id)
     if (e.target.id == "button1" || e.target.id == "button2" || e.target.id == "button3" || e.target.id == "button4") {
-        console.log("element was pressed", e.target.id)
+        // console.log("element was pressed", e.target.id)
         buttonPressed.push(e.target.id)
         compearer(arrOfButtons,buttonPressed)
         // console.log(arrOfButtons,buttonPressed)
@@ -66,7 +66,6 @@ function randButton() {
 
 
 function illuminator() {
-    console.log(arrOfButtons)
     arrOfButtons.forEach((elementid, index) => {
         setTimeout(() => {
             const element = document.getElementById(elementid)
